@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна робота №3 JavaScript</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>Лабораторна робота №3 JavaScript</h1>
+            <h2>Виконала Джаббарова Олександра КН-31</h2>
+            <h2>Варіант №10</h2>
+        </div>
+    </header>
+
+    <main>
+        <nav class="menu">
+            <ul>
+                <li><a href="lab1.html">Лабораторна робота №1</a></li>
+                <li><a href="lab2.html">Лабораторна робота №2</a></li>
+                <li><a href="index.html">Лабораторна робота №3</a></li>
+            </ul>
+        </nav>
+        <section id="lab3">
+            <h2>Завдання на лабораторну роботу:</h2>
+            <div class="p">
+                <p>10. Базовий клас: Телефон (поле: кількість функцій -k. )
+                    <br>Метод: Вартість: 40ln(k)
+                    <br>Нащадок: Мобільний (поле - модель)
+                    <br>Зміни в нащадках: Збільшити вартість в 3 рази.
+                </p>
+            </div>
+            <div class="container">
+                <div class="frame">
+                    <div class="inner-frame">
+                        <div class="text">Телефон</div>
+                        <div class="text">Кількість функцій (k):</div>
+                        <input type="number" id="functionCount" />
+                        <div class="text" id="cost">Вартість телефону: 0 UAH</div>
+                    </div>
+                </div>
+                
+                <div class="frame">
+                    <div class="inner-frame">
+                        <div class="text">Мобільний</div>
+                        <div class="text">Кількість функцій (k):</div>
+                        <input type="number" id="mobileFunctionCount" />
+                        <div class="text">Модель:</div>
+                        <input type="text" id="model" />
+                        <div class="text" id="mobileCost">Вартість мобільного телефону: 0 UAH</div>
+                    </div>
+                </div>                
+            </div>
+            <div class="button-container">
+                <button class="button" id="calculateCostBtn">Вивести результат</button>
+            </div>
+        </section>
+    </main>
+    <script src="script3.js"></script>
+</body>
+</html>
